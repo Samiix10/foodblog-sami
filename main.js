@@ -85,9 +85,8 @@ cls.addEventListener("click", function () {
   } else if (y > 18.5 && y < 24.9) { 
     if (g == "male"){
       rus = "you are Healthy man good job"
-    } else {
+    } else if( g == "female" ) {
         rus = "you are Healthy woman good job"
-        
       }
   } else if (y > 25 && y < 29.9) {
     rus = "you are overweight !!"
